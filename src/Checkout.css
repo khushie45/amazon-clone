@@ -1,9 +1,19 @@
-/* .checkout {
-    background-color: black;
-} */
+.checkout {
+    display: flex;
+    padding: 20px;
+    height: max-content;
+}
 
 .checkout--ad {
     width: 100%;
     object-fit: contain;
     margin-bottom: 10px;
+}
+
+.checkout--title {
+    margin: 10px 30px;
+}
+
+.checkout--header {
+    margin-bottom: 20px;
 }
