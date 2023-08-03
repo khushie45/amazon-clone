@@ -1,3 +1,25 @@
+@media (max-width: 768px) {
+    body {
+        .checkout {
+            display: block;
+            padding: 0;
+            font-size: 12px;
+        }
+        
+        .checkout--ad {
+            width: 100%;
+        }
+        
+        .checkout--title {
+            margin: 0 10px;
+        }
+        
+        .checkout--header {
+            margin-bottom: 10px;
+        }
+    }
+}
+
 .checkout {
     display: flex;
     padding: 20px;

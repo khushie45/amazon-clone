@@ -1,3 +1,21 @@
+@media (max-width: 768px) {
+    body {
+        .product {
+            margin: 5px;
+            padding: 10px;
+            font-size: 12px;
+        }
+        
+        .product--info {
+            height: auto;
+        }
+        
+        .product > img {
+            max-height: 150px;
+        }
+    }
+}
+
 .product {
     display: flex;
     flex-direction: column;
